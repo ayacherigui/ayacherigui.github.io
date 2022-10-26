@@ -1,0 +1,75 @@
+body {
+  background-color: #eef1fca8;
+}
+div.name {
+  width: 15vw;
+  height: 5vh;
+  margin: auto;
+}
+h1.name {
+  font-family: "Raleway";
+  font-size: 30.3px;
+  color: rgba(7, 6, 6, 0.815);
+  border-bottom: 0.6vw solid #d3d9eed8;
+  height: 2.4vh;
+  text-align: center;
+}
+p.name {
+  font-size: 13px;
+  text-align: center;
+  margin-top: -17px;
+}
+section {
+  margin-left: 40%;
+  line-height: 80%;
+}
+div {
+  margin-left: 20%;
+}
+p {
+  font-family: "Lora";
+  font-size: 15.1px;
+  color: rgb(11, 11, 12);
+}
+h3 {
+  font-family: "Raleway";
+  font-size: 18.1px;
+  color: #290520;
+}
+
+h5 {
+  font-family: "Lora";
+  font-size: 16.1px;
+}
+strong {
+  font-family: "Lora";
+  font-size: 14.1px;
+  color: rgba(0, 0, 0, 0.829);
+}
+a {
+  color: black;
+}
+p.pitch {
+  font-family: "Lora";
+  font-size: 16.1px;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  height: 40px;
+  margin: 10px;
+  border: 0;
+}
+button a {
+  text-decoration: none;
+  font-size: 18.1px;
+  font-weight: bold;
+  font-family: "Lora";
+  text-transform: uppercase;
+  color: rgba(48, 6, 88, 0.938);
+}
+button img {
+  width: 20px;
+  margin: auto;
+}

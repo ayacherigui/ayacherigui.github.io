@@ -1,0 +1,94 @@
+/* ****** NAVBAR********** */
+div.navbar {
+  background-color: rgba(110, 42, 173, 0.356);
+  width: 100%;
+  height: 5vh;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  font: 20px "Raleway", sans-serif;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+a.navbar,
+span.navbar {
+  color: white;
+  background-color: transparent;
+  text-decoration-line: none;
+  text-indent: 50px;
+  margin-right: 1%;
+  display: inline;
+}
+
+span.navbar {
+  margin-right: 74%; /*space until the parts*/
+}
+/* ****** About ********** */
+#About {
+  background-color: #7d5171b4;
+  color: white;
+  font: 20px "Raleway", sans-serif;
+  text-align: justify;
+  width: 100%;
+  height: 25vh;
+}
+#home {
+  background-color: rgba(42, 127, 238, 0.26);
+  width: 100%;
+  height: 70vh;
+}
+
+span {
+  background-color: transparent;
+  font: 30px "Raleway", sans-serif;
+  font-weight: bolder;
+}
+/*  ******* team part *******/
+#Team {
+  background-color: black;
+  color: white;
+  font: 40px "Raleway", sans-serif;
+  width: 100%;
+  height: 50vh;
+}
+
+section.team {
+  background-color: transparent;
+  padding-top: 6%;
+  padding-left: 12%;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+img.oumayma {
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgba(54, 1, 47, 0.295);
+  border-radius: 50%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+span.oumayma,
+span.asma,
+span.issam {
+  text-align: center;
+  display: block;
+}
+
+img.asma {
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgba(54, 1, 47, 0.295);
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 5%;
+}
+img.issam {
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgba(54, 1, 47, 0.295);
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
