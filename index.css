@@ -1,13 +1,17 @@
 /* ****** NAVBAR********** */
 div.navbar {
-  background-color: #003049;
-  width: 100%;
-  height: 5vh;
+  background-color: #121426;
+  min-width: 20em;
+  overflow-x: hidden;
+  height: 100%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
-  font: 20px "Raleway", sans-serif;
+  font: 1.2em "Raleway", sans-serif;
   font-weight: bold;
   text-decoration-line: none;
+  vertical-align: baseline;
+
+  box-sizing: border-box;
 }
 a.navbar,
 span.navbar {
@@ -20,18 +24,18 @@ span.navbar {
 }
 
 span.navbar {
-  margin-right: 72%; /*space until the parts*/
+  margin-right: 70%; /*space until the parts*/
 }
 /* ****** Home ********** */
 #home {
-  background-color: #52796f;
+  background-color: #f4eeea;
   width: 100%;
   height: 70vh;
 }
 
 /* ****** About ********** */
 #About {
-  background-color: #780000;
+  background-color: #500101;
   color: white;
   font: 20px "Raleway", sans-serif;
   text-align: justify;
@@ -44,53 +48,30 @@ span {
   font: 30px "Raleway", sans-serif;
   font-weight: bolder;
 }
-/*  ******* team part *******/
-#Team {
-  background-color: black;
+/*  ******* Research *******/
+#Research {
+  background-color: #121426;
   color: white;
   font: 40px "Raleway", sans-serif;
   width: 100%;
-  height: 50vh;
+  height: 55vh;
+  box-sizing: border-box;
 }
-
-section.team {
-  background-color: transparent;
-  padding-top: 6%;
-  padding-left: 12%;
-  text-align: center;
-  display: block;
-  float: left;
-}
-
-img.oumayma {
-  width: 200px;
-  height: 200px;
-  border: 5px solid rgba(54, 1, 47, 0.295);
-  border-radius: 50%;
-  margin-right: 5%;
+img.MEC {
+  width: 230px;
+  border: solid rgba(0, 0, 0, 0.274) 2px;
   margin-left: 5%;
+  margin-top: 2%;
 }
-span.oumayma,
-span.asma,
-span.issam {
-  text-align: center;
-  display: block;
+p.MEC {
+  font: 15px "Raleway", sans-serif;
+  background-color: inherit;
+  margin-left: 3.5%;
+  margin-top: -2px;
 }
-
-img.asma {
-  width: 200px;
-  height: 200px;
-  border: 5px solid rgba(54, 1, 47, 0.295);
-  border-radius: 50%;
-  text-align: center;
-  margin-left: 5%;
-}
-img.issam {
-  width: 200px;
-  height: 200px;
-  border: 5px solid rgba(54, 1, 47, 0.295);
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 5%;
-  margin-left: 5%;
+a.MEC {
+  text-decoration: none;
+  background-color: inherit;
+  font-family: "romain_reguRgText", "Times", "serif";
+  letter-spacing: 0.8px;
 }
