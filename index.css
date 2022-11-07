@@ -26,7 +26,7 @@ span.navbar {
 span.navbar {
   margin-right: 70%; /*space until the parts*/
 }
-/* ****** Home ********** */
+/* ****** Home **********#f4eeea */
 #home {
   background-color: #f4eeea;
   width: 100%;
@@ -74,4 +74,7 @@ a.MEC {
   background-color: inherit;
   font-family: "romain_reguRgText", "Times", "serif";
   letter-spacing: 0.8px;
+}
+footer {
+  background-color: #022d8a;
 }
